@@ -1,6 +1,6 @@
 #Link: https://t-t-h-n-e-w.blogspot.com/2020/10/2112.html
 
-f := 5*a/(b+c)+5*b/(c+a)+5*c/(a+b)-(a^2+b^2+c^2)/(a*b+a*c+b*c)-10
+f := 5*a/(b+c)+5*b/(c+a)+5*c/(a+b)-(a^2+b^2+c^2)/(a*b+a*c+b*c)-10;
 
 F := collect(numer(f), a, factor);
 
